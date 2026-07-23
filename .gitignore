@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# Data & checkpoints (too large for git)
+checkpoints/
+data/
+results/
+visualizations/
+paper_figures/
+codes_backup/
+segmentation/
+
+# Logs
+*.log
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# PyTorch
+*.pt
+*.pth
+*.ckpt
+
+# Misc
+ablatiom_log.txt
